@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="MLModels\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +19,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Data\taxi-fare-train.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MLModels\Comments.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
