@@ -5,7 +5,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-using Common;
+//using Common;
 
 using Microsoft.ML;
 using Microsoft.ML.Data;
@@ -36,7 +36,7 @@ namespace TaxiMeterPrediction
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
 
         public static string GetAbsolutePath(string relativePath)
